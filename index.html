@@ -91,12 +91,12 @@
         <div class="span8">
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
-              <div class="item">
+              <!-- <div class="item">
                 <img src="assets/img/02x830.jpg" alt="" class="img-rounded">
                 <div class="carousel-caption">
                   <h4>Króliczka Fela</h4>
                 </div>
-              </div>
+              </div> -->
               <div class="item active">
                 <img src="assets/img/03x830.jpg" alt="" class="img-rounded">
                 <div class="carousel-caption">
@@ -121,12 +121,12 @@
                   <h4>Myszka Mania</h4>
                 </div>
               </div>
-              <div class="item">
+              <!-- <div class="item">
                 <img src="assets/img/07x830.jpg" alt="" class="img-rounded">
                 <div class="carousel-caption">
                   <h4>Krokodyl Antek</h4>
                 </div>
-              </div>
+              </div> -->
               <div class="item">
                 <img src="assets/img/08x830.jpg" alt="" class="img-rounded">
                 <div class="carousel-caption">
@@ -169,56 +169,74 @@
           <ul class="thumbnails">
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/01.jpg" alt="">
+                <img src="assets/gallery/koala_ala.jpg" alt="">
                 <h4>Koala Ala</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/02.jpg" alt="">
+                <img src="assets/gallery/niedzwiedz_olaf.jpg" alt="">
                 <h4>Niedźwiedź Olaf</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/03.jpg" alt="">
+                <img src="assets/gallery/owieczka_kasia.jpg" alt="">
                 <h4>Owieczka Kasia</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/04.jpg" alt="">
+                <img src="assets/gallery/owieczka_kasia2.jpg" alt="">
                 <h4>Owieczka Kasia</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/05.jpg" alt="">
+                <img src="assets/gallery/szop_pracz_anatol.jpg" alt="">
                 <h4>Szop pracz Anatol</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/06.jpg" alt="">
+                <img src="assets/gallery/mis_bartek.jpg" alt="">
                 <h4>Miś Bartek</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/07.jpg" alt="">
+                <img src="assets/gallery/wiewiorka_basia.jpg" alt="">
                 <h4>Wiewiórka Basia</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/08.jpg" alt="">
+                <img src="assets/gallery/kukulka_zula.jpg" alt="">
                 <h4>Kukułka Zula</h4>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img src="assets/gallery/09.jpg" alt="">
+                <img src="assets/gallery/sowa_pucia.jpg" alt="">
                 <h4>Sowa Pucia</h4>
+              </div>
+            </li>
+            <li class="span4">
+              <div class="thumbnail">
+                <img src="assets/gallery/kukulka_zula2.jpg" alt="">
+                <h4>Kukułka Zula</h4>
+              </div>
+            </li>
+            <li class="span4">
+              <div class="thumbnail">
+                <img src="assets/gallery/sowa_pucia2.jpg" alt="">
+                <h4>Sowa Pucia</h4>
+              </div>
+            </li>
+            <li class="span4">
+              <div class="thumbnail">
+                <img src="assets/gallery/ryjowka_renia.jpg" alt="">
+                <h4>Ryjówka Renia</h4>
               </div>
             </li>
           </ul>
@@ -379,23 +397,65 @@
               <input type="text" name="entry.1.single" id="entry_1" class="input-block-level">
               <label>Numer telefonu</label>
               <input type="text" name="entry.2.single" id="entry_2" class="input-block-level">
-              <label>Przytulaczek *</label>
-              <select name="entry.3.group" id="entry_3" class="input-block-level">
-                <option>( wybierz misia )</option>
-                <option>30,00 zł - Króliczka Fela</option>
-                <option>40,00 zł - Koala Ala</option>
-                <option>35,00 zł - Myszka Hela</option>
-                <option>35,00 zł - Krokodyl Antek</option>
-                <option>35,00 zł - Myszka Mania</option>
-                <option>35,00 zł - Krokodyl Antek</option>
-                <option>35,00 zł - Wiewiórka Basia</option>
-                <option>35,00 zł - Niedźwiedź Olaf</option>
-                <option>40,00 zł - Owieczka Kasia</option>
-                <option>35,00 zł - Szop pracz Anatol</option>
-                <option>30,00 zł - Miś Bartek</option>
-                <option>35,00 zł - Kukułka Zula</option>
-                <option>40,00 zł - Sowa Pucia</option>
-              </select>
+
+              <p>Przytulaczek *</p>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Koala Ala" checked>
+                <img src="assets/form/koala_ala.jpg" alt="" class="img-polaroid">
+                <span class="lead">Koala Ala</span>
+                <span class="pull-right">40,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Kukułka Zula">
+                <img src="assets/form/kukulka_zula.jpg" alt="" class="img-polaroid">
+                <span class="lead">Kukułka Zula</span>
+                <span class="pull-right">35,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Miś Bartek">
+                <img src="assets/form/mis_bartek.jpg" alt="" class="img-polaroid">
+                <span class="lead">Miś Bartek</span>
+                <span class="pull-right">30,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Niedźwiedź Olaf">
+                <img src="assets/form/niedzwiedz_olaf.jpg" alt="" class="img-polaroid">
+                <span class="lead">Niedźwiedź Olaf</span>
+                <span class="pull-right">35,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Owieczka Kasia">
+                <img src="assets/form/owieczka_kasia2.jpg" alt="" class="img-polaroid">
+                <span class="lead">Owieczka Kasia</span>
+                <span class="pull-right">40,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Ryjówka Renia">
+                <img src="assets/form/ryjowka_renia.jpg" alt="" class="img-polaroid">
+                <span class="lead">Ryjówka Renia</span>
+                <span class="pull-right">35,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Sowa Pucia">
+                <img src="assets/form/sowa_pucia.jpg" alt="" class="img-polaroid">
+                <span class="lead">Sowa Pucia</span>
+                <span class="pull-right">40,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Szop pracz Anatol">
+                <img src="assets/form/szop_pracz_anatol.jpg" alt="" class="img-polaroid">
+                <span class="lead">Szop pracz Anatol</span>
+                <span class="pull-right">35,00 zł</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="entry.3.group" value="Wiewiórka Basia">
+                <img src="assets/form/wiewiorka_basia.jpg" alt="" class="img-polaroid">
+                <span class="lead">Wiewiórka Basia</span>
+                <span class="pull-right">35,00 zł</span>
+              </label>
+              <p class="pull-right">+ koszt wysyłki 8,00 zł</p>
+              <span class="clearfix">&nbsp;</span>
+
               <label>Treść wiadomości</label>
               <textarea rows="3" name="entry.4.single" id="entry_4" class="input-block-level"></textarea>
               <p>Wysyłając ten formularz, wyrażasz zgodę przesyłanie wiadomości z serwisu przytulaczki.pl</p>
